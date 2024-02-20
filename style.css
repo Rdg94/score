@@ -210,7 +210,7 @@ hr {
     height: 100vh;
     justify-content: center;
     align-items: center;
-    gap: 0;
+    padding-bottom: 20px;
   }
 
   .container-01 {
