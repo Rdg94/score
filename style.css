@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
   margin: 0;
@@ -76,24 +77,17 @@ h6 {
 .button {
   background-color: #c80000;
   color: #fff;
-  letter-spacing: -0.09rem;
-  font-weight: 800;
+  letter-spacing: normal;
+  font-weight: 600;
   font-size: 150%;
   padding: 1.5rem 3rem;
   border-radius: 50rem;
   box-shadow: 0rem 0rem 20rem 0rem rgba(0, 0, 0, 0.5);
   margin: 0 auto;
-}
-
-.button:hover {
-  background-color: red;
-  color: #fff;
-  letter-spacing: -0.09rem;
+  margin-bottom: 2%;
+  border: none;
+  cursor: pointer;
   font-weight: 800;
-  font-size: 150%;
-  padding: 1.5rem 3rem;
-  border-radius: 50rem;
-  box-shadow: 0rem 0rem 20rem 0rem red;
 }
 
 .img-after-button {
@@ -200,21 +194,113 @@ hr {
 
 .secao-4 {
   background-color: transparent;
+  background-image: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.box1-secao4 {
+  width: 25%;
+}
+
+.box1-secao4 h2 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  font-style: italic;
+  color: #1d4f91;
+  margin-bottom: 2%;
+  text-align: justify;
+}
+
+.box1-secao4 p {
+  color: #161616;
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.secao-5 {
+  background-color: transparent;
   background-image: linear-gradient(
     180deg,
     rgba(216, 43, 128, 0.27) 0%,
     rgba(216, 43, 128, 0) 62%
   );
+  height: 100vh;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-flow: column;
+  position: relative;
   align-items: center;
-  height: 40rem;
+  justify-content: center;
+  gap: 6rem;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
-.img-secao-4 {
+.secao-5 span {
+  color: #d82b80;
+}
+
+.titulo-secao-5 {
+  color: #1091bf;
+  font-size: 3.2rem;
+  font-weight: 900;
+  font-family: "Poppins", Sans-serif;
+  text-align: center;
+  width: 70%;
+}
+
+.caixa-secao-5 {
+  display: flex;
+  flex-flow: column;
+  box-shadow: 0px 0px 30px -10px rgba(0, 0, 0, 0.5);
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  border-radius: 2rem;
+}
+
+.caixa-azul {
+  background-color: #1091bf;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0px 5px 0px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.caixa-azul strike {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.caixa-azul h2 {
+  font-size: 2.6rem;
+  font-weight: 500;
+  font-style: italic;
+  text-align: center;
+}
+
+.caixa-branca {
+  display: flex;
+  flex-flow: column;
+}
+
+.caixa-branca h2 {
+  font-size: 12rem;
+  color: #1091bf;
+  font-weight: 800;
+  letter-spacing: -1px;
+  text-align: center;
+}
+
+.img-secao-5 {
   width: 493;
   min-width: 30rem;
+  padding-right: 20px;
 }
 
 @media (max-width: 767px) {
@@ -262,6 +348,12 @@ hr {
     padding-right: 5%;
     align-items: center;
   }
+
+  .button-secao-2 {
+    padding: 0.5%;
+    width: 80%;
+    font-size: 1.4rem;
+  }
   .coluna-secao-2 p {
     font-size: 16px;
   }
@@ -302,13 +394,64 @@ hr {
   }
 
   .secao-4 {
-    padding: 3%;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 8%;
+    padding-top: 8%;
+    gap: 2rem;
   }
 
-  .img-secao-4 {
+  .box1-secao4 {
     width: 100%;
+  }
+
+  .secao-4 h2 {
+    font-size: 2.4rem;
+  }
+
+  .secao-4 img {
+    width: 80%;
+  }
+
+  .secao-5 {
+    padding: 4% 2%;
+    gap: 0;
+    height: 100%;
+  }
+
+  .titulo-secao-5 {
+    font-size: 2.4rem;
+    width: 90%;
+    text-align: justify;
+    margin-bottom: 5%;
+  }
+
+  .caixa-secao-5 {
+    width: 95%;
+  }
+
+  .caixa-branca {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+
+  .caixa-branca h2 {
+    font-size: 6rem;
+  }
+
+  .img-secao-5 {
+    width: 493;
+    min-width: 30rem;
+    padding-right: 20px;
+  }
+
+  .button-secao-5 {
+    padding: 0.5%;
+    width: 80%;
+    font-size: 1.4rem;
   }
 }
