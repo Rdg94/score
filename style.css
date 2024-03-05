@@ -193,6 +193,75 @@ hr {
   border-radius: 10px;
 }
 
+.secao-bonus {
+  background-color: #eaeaea;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 5%;
+}
+
+.secao-bonus h2 {
+  color: #1d4f91;
+  text-align: center;
+  font-weight: 800;
+  line-height: 1.2em;
+  font-size: 3.2rem;
+  width: 50%;
+}
+
+.secao-bonus bonus {
+  color: #fc229d;
+}
+
+.caixas-secao-bonus {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.caixas-bonus {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 2em;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+  width: 20%;
+  gap: 10px;
+}
+
+.caixas-bonus img {
+  width: 50%;
+}
+.caixas-bonus tag {
+  color: #af1685;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px #fc229d;
+  width: 60%;
+  border-radius: 200px;
+  padding: 0.5rem 1rem;
+}
+
+.caixas-bonus h3 {
+  color: #af1685;
+  font-size: 2.8rem;
+  text-align: center;
+}
+
+.caixas-bonus p {
+  font-size: 16px;
+  color: #161616;
+  text-align: center;
+}
+
 .secao-4 {
   background-color: transparent;
   background-image: white;
