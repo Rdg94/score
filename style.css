@@ -16,6 +16,17 @@ body {
   color: #ffff;
 }
 
+#countdown {
+  font-size: 24px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: gray;
+  width: 100%;
+}
+
 #secao-1 {
   background-image: url(https://originalguiadoscore.com.br/wp-content/uploads/2023/07/aumentar-score-3.jpg);
   background-size: cover;
