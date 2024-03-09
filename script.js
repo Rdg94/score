@@ -22,7 +22,7 @@ var x = setInterval(function () {
 
   // Exiba o resultado na div com o id "countdown"
   document.getElementById("countdown").innerHTML =
-    minutes + "m " + seconds + "s ";
+    "Essa promoção termina em: " + minutes + ":" + seconds;
 
   // Se a contagem regressiva terminar, exiba uma mensagem e reinicie
   if (distance < 0) {

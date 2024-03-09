@@ -25,6 +25,7 @@ body {
   z-index: 1000;
   background-color: gray;
   width: 100%;
+  font-weight: 800;
 }
 
 #secao-1 {
@@ -36,6 +37,7 @@ body {
   flex-flow: column;
   align-items: center;
   justify-content: center;
+  padding-top: 5px;
 }
 #tittle {
   display: flex;
