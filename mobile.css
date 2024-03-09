@@ -6,6 +6,11 @@
   h6 {
     font-size: 1rem;
   }
+
+  #countdown {
+    font-size: 18px;
+  }
+
   #secao-1 {
     display: flex;
     width: 100%;
